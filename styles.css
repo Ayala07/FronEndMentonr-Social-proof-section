@@ -31,7 +31,7 @@ body{
     padding: 67px 67px 30px 67px ;
 }
 
-.tittle__sub--tittle{
+.tittle__sub--tittle h4{
     color: var(--Dark-Grayish-Magenta);
     text-align: center;
     padding: 0 30px 30px 30px;
@@ -55,7 +55,7 @@ body{
 }
 .rating-text h5{
     color: var(--Very-Dark-Magenta);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 0.9em;
 }
 
@@ -93,23 +93,26 @@ body{
     width: 50px;
 }
 
-.profile--name--info{
+.card__profile--name--info{
     grid-column: 2/3;
-    
+    line-break: 60px;
 }
 
-.profile--name--info h4{
+.card__profile--name--info h4{
     color: var(--White);
+    font-weight: 500;
+    line-height: 25px;
 }
 
-.profile--name--info h5{
+.card__profile--name--info h5{
     color: var(--Soft-Pink);
+    font-weight: 400;
     font-size: .94em;
 }
 
 .card__person--body{
     color: var(--White);
-    font-weight: bold;
+    font-weight: 400;
     padding: 0 30px 30px 30px;
     font-size: .87em;
     line-height: 20px;
