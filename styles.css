@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Spartan', sans-serif;
+    
 }
 
 :root{
@@ -13,3 +13,104 @@
     --White: hsl(0, 0%, 100%);
 }
 
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.head{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+.tittle__main--tittle h1{
+    color: var(--Very-Dark-Magenta);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    padding: 67px 67px 30px 67px ;
+}
+
+.tittle__sub--tittle{
+    color: var(--Dark-Grayish-Magenta);
+    text-align: center;
+    padding: 0 30px 30px 30px;
+    font-weight: 500;
+}
+
+.head__rating{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-row-gap: 20px;
+    padding: 0 25px 0 25px;
+}
+.head__rating--content{
+    display: grid;
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px;
+    grid-template-rows: auto 1fr;
+    row-gap: 10px;
+}
+.rating-text h5{
+    color: var(--Very-Dark-Magenta);
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.star{
+    text-align: center;
+}
+
+.card--container{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 20px;
+    padding: 25px;
+}
+
+.card__content{
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 10px;
+}
+
+.card__person--tittle{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 27px;
+    padding: 38px 25px 27px 30px;
+}
+
+.card__profile--image{
+    display: grid;
+    grid-column: 1/2;
+    justify-content: center;
+}
+
+.card__profile--image img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.profile--name--info{
+    grid-column: 2/3;
+    
+}
+
+.profile--name--info h4{
+    color: var(--White);
+}
+
+.profile--name--info h5{
+    color: var(--Soft-Pink);
+    font-size: .94em;
+}
+
+.card__person--body{
+    color: var(--White);
+    font-weight: bold;
+    padding: 0 30px 30px 30px;
+    font-size: .87em;
+    line-height: 20px;
+}
