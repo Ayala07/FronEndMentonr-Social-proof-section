@@ -29,7 +29,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](hhttps://github.com/Ayala07/FronEndMentonr-Social-proof-section)
-- Live Site URL: [Add live site URL here](https://hungry-archimedes-bff8f8.netlify.app)
+- Live Site URL: [Add live site URL here](https://amazing-bartik-039234.netlify.app)
 
 ## My process
 
